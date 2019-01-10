@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+    background: lightpink;
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.header {
+    padding: 2.8rem 0 4rem;
+    background: #dbdbdb;
+}
+
+.contacts--phone {
+    color: #757575;
+    font-size: 2.5rem;
+}
+
+.main-navigation {
+    background: #767676;
+    padding: 1.7rem 0;
+}
+
+.nav-bar {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar__item {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.nav-bar__item a {
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 0 1.7rem;
+    border-right: 2px solid #fff;
+}
+
+.nav-bar__item:last-child a{
+    border-right: none;
+}
+
+.category-list {
+    padding: 0;
+    margin: 0;
+}
+
+.category-list--item {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.category-list--item h3 {
+    font-size: inherit;
+}
+
+.subcategory-list--item {
+    list-style-type: disc;
+    font-size: 1rem;
+}
+
+.subcategory-list--item a {
+    color: inherit; 
+}
+
+.card {
+    background: #dadada;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.price {
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.page-link {
+    border: none;
+    color: inherit;    
+}
+
+.page-link--active {
+    font-size: 1.3rem;
+}
+
+.footer {
+    padding: 3.125rem 0;
+    background: #767676;
+    color: #fff;
+}
+
+.footer-mail {
+    color: inherit;               
+}
+
+.nav-bar__footer .nav-bar__item {
+    display: block;
+    margin-bottom: .75em;
+}
+
+.nav-bar__footer .nav-bar__item a {
+    border: none;
+    font-size: 1rem;
+    text-decoration: underline;
+}
